@@ -1,8 +1,9 @@
 @font-face {  
-	font-family: Northwell;  
-	src: url('/assets/fonts/northwell.ttf') format("truetype"),
-	url('northwell-webfont.woff2') format('woff2'),
-	url('northwell-webfont.woff') format('woff');
+	font-family: 'northwellregular';
+    src: url('assets/fonts/northwell-webfont.woff2') format('woff2'),
+		 url('assets/fonts/northwell-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .myButton {
@@ -30,7 +31,7 @@
 
 h1 {
 	margin-top: 10px;
-	font-family: 'Northwell', 'Shadows Into Light Two';
+	font-family: 'northwellregular', san-serif, 'Shadows Into Light Two';
 	font-size: 72px;
 	text-align: center;
 	color: #2f8e8f;
