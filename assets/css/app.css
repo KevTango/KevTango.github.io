@@ -1,7 +1,7 @@
 @font-face {  
 	font-family: 'northwellregular';
-    src: url('assets/fonts/northwell-webfont.woff2') format('woff2'),
-		 url('assets/fonts/northwell-webfont.woff') format('woff');
+    src: url(/assets/fonts/northwell-webfont.woff2) format('woff2'),
+		 url(/assets/fonts/northwell-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@
 
 h1 {
 	margin-top: 10px;
-	font-family: 'northwellregular', san-serif, 'Shadows Into Light Two';
+	font-family: 'northwellregular', sans-serif, 'Shadows Into Light Two';
 	font-size: 72px;
 	text-align: center;
 	color: #2f8e8f;
