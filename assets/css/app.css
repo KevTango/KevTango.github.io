@@ -35,3 +35,11 @@ h2 {
 	text-align: center;
 	color: #181818;
 }
+
+h3 {
+	margin-top: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: #2f8e8f;
+}
