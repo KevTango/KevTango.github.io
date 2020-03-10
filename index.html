@@ -13,22 +13,26 @@
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
   </head>
 <body>
-
-	<div class="top-bar">
-	  <div class="top-bar-left">
-		<ul class="dropdown menu" data-dropdown-menu>
-		  <!--<li class="menu-text">Kevin Tang</li>-->
-		  <li><a href="#">Home</a></li>
-		  <li><a href="#">About Me</a></li>
-		  <li><a href="#">Projects</a></li>
-		  <li><a href="#">Contact</a></li>
-		</ul>
-	  </div>
-	  <div class="top-bar-right">
-		<ul class="menu">
-		  <a href="assets/img/Kevin_Tang_Resume.pdf" class="myButton">Résumé</a>
-		</ul>
-	  </div>
+	<div class="title-bar" data-responsive-toggle="main_menu" data-hide-for="medium">
+		<button class="menu-icon" type="button" data-toggle="main_menu">
+		</button>
+	</div>
+	
+	<div class="top-bar" id="main_menu">
+		<div class="top-bar-left">
+			<ul class="dropdown menu" data-dropdown-menu>
+				<!--<li class="menu-text">Kevin Tang</li>-->
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="top-bar-right">
+			<ul class="menu">
+				<a href="assets/img/Kevin_Tang_Resume.pdf" class="myButton">Résumé</a>
+			</ul>
+		</div>
 	</div>
 
 	<h1>Hi! I'm Kevin Tang</h1>
