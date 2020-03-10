@@ -1,6 +1,8 @@
 @font-face {  
-  font-family: Northwell;  
-  src: url(/assets/fonts/nortwell.ttf) format("truetype");
+	font-family: Northwell;  
+	src: url('/assets/fonts/northwell.ttf') format("truetype"),
+	url('northwell-webfont.woff2') format('woff2'),
+	url('northwell-webfont.woff') format('woff');
 }
 
 .myButton {
