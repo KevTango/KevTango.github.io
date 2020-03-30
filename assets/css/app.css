@@ -93,8 +93,14 @@ p {
 
 .orbit-next{
 	margin-right: 25rem;
+	background: #2f8e8f;
 }
 
 .orbit-previous{
 	margin-left: 25rem;
+	background: #2f8e8f;
+}
+
+.orbit-caption{
+	font-family: 'Lato', sans-serif;
 }
