@@ -63,6 +63,18 @@ p {
 	padding: 2rem;
 }
 
+.banner {
+	margin-top: 2.5rem;
+	margin-left: 25rem;
+	margin-right: 25rem;
+	margin-bottom: 5rem;
+	height: 500px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-size: cover;
+	background-position: center;
+}
+
 .aboutmepic{
 	text-align: right;
 	width: 100%;
