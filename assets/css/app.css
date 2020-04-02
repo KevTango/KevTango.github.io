@@ -104,3 +104,9 @@ p {
 .orbit-caption{
 	font-family: 'Lato', sans-serif;
 }
+
+.orbit-image{
+	height: 600px;
+	width: 1200px;
+	object-fit: scale-down;
+}
