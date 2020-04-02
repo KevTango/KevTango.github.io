@@ -75,6 +75,10 @@ p {
 	background-position: center;
 }
 
+.grid-x{
+	background-color: #e6e6e6;
+}
+
 .aboutmepic{
 	text-align: right;
 	width: 100%;
