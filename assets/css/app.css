@@ -35,8 +35,13 @@ p {
 	color: #181818;
 	text-align: center;
 }
+
+.dropdown.menu {
+	color: #2f8e8f;
+}
+
 .menu-text {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #2f8e8f;
 }
 
