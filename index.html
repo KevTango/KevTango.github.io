@@ -24,10 +24,10 @@
 		<div class="top-bar-left">
 			<ul class="dropdown menu" data-dropdown-menu>
 				<!--<li class="menu-text">Kevin Tang</li>-->
-				<li><a href="#">Home</a></li>
-				<li><a href="#about-me">About Me</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<!--<li><a href="#">Contact</a></li>-->
+				<li><a class="menu-text" href="#">Home</a></li>
+				<li><a class="menu-text" href="#about-me">About Me</a></li>
+				<li><a class="menu-text" href="#projects">Projects</a></li>
+				<li><a class="menu-text" href="#contact">Contact</a></li>
 			</ul>
 		</div>
 		<div class="top-bar-right">
@@ -72,7 +72,6 @@
 	<h3>PROJECTS</h3>
 	<h2>Some projects that I did while at university. All code can be found on my Github page.</h2>
 	
-	<!-- ORBIT NOT WORKING PROPERLY (MOTION-UI) -->
 	<div class="orbit" role="region" aria-label="Projects" data-orbit>
 		<div class="orbit-wrapper">
 			<div class="orbit-controls">
@@ -128,10 +127,31 @@
 			<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
 			<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
 			<button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
+			<button data-slide="5"><span class="show-for-sr">Sixth slide details.</span></button>
 		</nav>
 	</div>
 	
+	<!--FOOTER-->
+	<a name="contact"></a>
+	<div class="footer">
+		<div class="footer-icons">
+			<a href="mailto:kevin.tang2648@gmail.com">
+				<img class="footer-image" src="assets/img/email.png" alt="Email Icon">
+			</a>
+			<a href="https://www.linkedin.com/in/kevintangnzl/">
+				<img class="footer-image" src="assets/img/linkedin.png" alt="LinkedIn Icon ">
+			</a>
+			<a href="https://github.com/KevTango">
+				<img class="footer-image" src="assets/img/github.png" alt="Github Icon">
+			</a>
+		</div>
+		Banner image taken by Stuart Hoang
+	</div>
+	
 <script src="assets/js/app.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/foundation.js"></script>
+<script src="assets/js/foundation.orbit.js"></script>
 <script src="assets/js/motion-ui.js"></script>
 </body>
 </html>

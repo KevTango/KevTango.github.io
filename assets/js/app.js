@@ -8492,7 +8492,7 @@ Orbit.defaults = {
    * @type {boolean}
   * @default true
   */
-  useMUI: true
+  useMUI: false
 };
 var MenuPlugins = {
   dropdown: {
