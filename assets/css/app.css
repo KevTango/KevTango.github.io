@@ -163,7 +163,12 @@ p {
 	padding-bottom: 7.5px;
 }
 
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1366px) {
+	h1{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	
 	h2{
 		padding-left: 2rem;
 		padding-right: 2rem;
