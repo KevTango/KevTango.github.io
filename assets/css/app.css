@@ -36,6 +36,10 @@ p {
 	text-align: center;
 }
 
+.large-6 {
+	padding: 2rem;
+}
+
 .dropdown.menu {
 	color: #2f8e8f;
 }
@@ -70,10 +74,6 @@ p {
 .myButton:active {
 	position: relative;
 	top: 1px;
-}
-
-.small-6 {
-	padding: 2rem;
 }
 
 .banner {
@@ -161,4 +161,80 @@ p {
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-bottom: 7.5px;
+}
+
+@media only screen and (max-width: 1007px) {
+	h2{
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+	
+	.banner {
+		margin: 0rem;
+		height: 0px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	.aboutmepic {
+		text-align: center;
+		width: 100%;
+	}
+	
+	.aboutmetitle {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 40px;
+		text-align: center;
+		color: #2f8e8f;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.aboutmetext {
+		font-family: 'Lato', sans-serif;
+		padding-right: 0rem;
+		font-size: 15px;
+		color: #181818;
+		text-align: left;
+		line-height: 28px;
+	}
+	
+	.orbit-wrapper {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.orbit-next {
+		margin-right: 2rem;
+		background: #2f8e8f;
+	}
+
+	.orbit-previous {
+		margin-left: 2rem;
+	}
+
+	.footer {
+		background-color: #e6e6e6;
+		padding-top: 3rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-bottom: 5rem;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		line-height: 21px;
+		color: #181818;
+		text-align: center;
+	}
+
+	.footer-icons {
+		text-align: center;
+	}
+
+	.footer-image {
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-bottom: 4px;
+	}
 }
