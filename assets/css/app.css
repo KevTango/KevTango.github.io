@@ -64,6 +64,7 @@ p {
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
+	text-align: center;
 }
 
 .myButton:hover {
@@ -172,6 +173,10 @@ p {
 	h2{
 		padding-left: 2rem;
 		padding-right: 2rem;
+	}
+	
+	.menu-text{
+		text-align: center;
 	}
 	
 	.banner {
