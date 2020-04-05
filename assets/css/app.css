@@ -108,7 +108,7 @@ p {
 
 .aboutmetext {
 	font-family: 'Lato', sans-serif;
-	padding-right: 35rem;
+	padding-right: 15%;
 	font-size: 15px;
 	color: #181818;
 	text-align: left;
@@ -163,7 +163,7 @@ p {
 	padding-bottom: 7.5px;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1024px) {
 	h1{
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -200,9 +200,11 @@ p {
 	.aboutmetext {
 		font-family: 'Lato', sans-serif;
 		padding-right: 0rem;
+		overflow: hidden;
+		word-wrap: break-word;
 		font-size: 15px;
 		color: #181818;
-		text-align: left;
+		text-align: center;
 		line-height: 28px;
 	}
 	
@@ -242,4 +244,9 @@ p {
 		padding-right: 2px;
 		padding-bottom: 4px;
 	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.aboutmetext{
+		padding-right: 25rem;
 }
