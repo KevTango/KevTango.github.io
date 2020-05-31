@@ -138,7 +138,7 @@ p {
 .orbit-image {
 	height: 600px;
 	width: 1200px;
-	object-fit: scale-down;
+	display: block;
 }
 
 .footer {
