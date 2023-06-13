@@ -139,6 +139,9 @@ p {
 	height: 600px;
 	width: 1200px;
 	object-fit: scale-down;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .footer {
@@ -254,4 +257,5 @@ p {
 @media only screen and (min-width: 1025px) {
 	.aboutmetext{
 		padding-right: 25rem;
+	}
 }
